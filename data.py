@@ -7,7 +7,7 @@ sistemas = [
           "prioridade": 1
              "consumo":?,  #definer depois com o time
                 "ativo": True,
-                    "tipo": "essencial
+                    "tipo": "essencial"
     },
 
     {
@@ -16,7 +16,7 @@ sistemas = [
             "consumo":?,  #definer depois com o time
               "ativo": True,
                  "tipo": "pesquisa
-    }
+    },
 
     {
         "nome": "Habitação",
@@ -24,7 +24,7 @@ sistemas = [
               "consumo":?,  #definer depois com o time
                 "ativo": True,
                   "tipo": "essencial"
-    }
+    },
 
     {
         "nome": "Comunicações",
@@ -32,7 +32,7 @@ sistemas = [
               "consumo":?,  #definer depois com o time
                 "ativo": True,
                   "tipo": "essencial"
-    }
+    },
 ]
 
 
