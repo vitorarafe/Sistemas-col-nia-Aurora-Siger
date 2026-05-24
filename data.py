@@ -3,31 +3,33 @@
 sistemas = [
     {
         "nome": "Geração de Oxigênio",
-        "prioridade": 1,
-        "consumo": None,  # definir depois com o time
-        "ativo": True,
-        "tipo": "essencial"
+          "prioridade": 1
+             "consumo":?,  #definer depois com o time
+                "ativo": True,
+                    "tipo": "essencial
     },
     {
-        "nome": "Laboratório",
-        "prioridade": 3,
-        "consumo": None,
-        "ativo": True,
-        "tipo": "pesquisa"
-    },
+        "nome": "laoratório",
+          "prioridade":3
+            "consumo":?,  #definer depois com o time
+              "ativo": True,
+                 "tipo": "pesquisa
+    }
+
     {
         "nome": "Habitação",
-        "prioridade": 1,
-        "consumo": None,
-        "ativo": True,
-        "tipo": "essencial"
-    },
+            "prioridade": 1
+              "consumo":?,  #definer depois com o time
+                "ativo": True,
+                  "tipo": "essencial"
+    }
+
     {
         "nome": "Comunicações",
-        "prioridade": 2,
-        "consumo": None,
-        "ativo": True,
-        "tipo": "essencial"
+            "prioridade": 2
+              "consumo":?,  #definer depois com o time
+                "ativo": True,
+                  "tipo": "essencial"
     }
 ]
 
