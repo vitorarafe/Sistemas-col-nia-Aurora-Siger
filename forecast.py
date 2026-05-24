@@ -31,13 +31,13 @@ print("Inclinação (β₁):", modelo.coef_[0])
 
 # Previsoes
 y_pred = modelo.predict(X)
-
-print("R²:", r2_score(y, y_pred)) #(coeficiente de determinação) qunato mais proximo de 1 melhor, se for negativo o modelo é pior que a media
+r2 = r2_score(y, y_pred)
+print("R²:", r2) #(coeficiente de determinação) qunato mais proximo de 1 melhor, se for negativo o modelo é pior que a media
 
 # Simulação de previsão futura
-novo_x = np.array([[81]])  # 81 e um valor aleatorio para o parametro_X, substitua por um valor real que faça sentido para a previsão que vocês querem fazer... 81 pq e mengao!
+x_futuro = np.array([[81]])  # 81 e um valor aleatorio para o parametro_X, substitua por um valor real que faça sentido para a previsão que vocês querem fazer... 81 pq e mengao!
 
-previsao = modelo.predict(novo_x)
+previsao = modelo.predict(x_futuro)
 
 print("Previsão futura:", previsao[0])
 
