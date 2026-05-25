@@ -4,14 +4,14 @@ sistemas = [
     {
         "nome": "Geração de Oxigênio",
           "prioridade": 1
-             "consumo":?,  #definer depois com o time
+             "consumo":40,  
                 "ativo": True,
                     "tipo": "essencial
     },
     {
         "nome": "laoratório",
           "prioridade":3
-            "consumo":?,  #definer depois com o time
+            "consumo":25,  
               "ativo": True,
                  "tipo": "pesquisa
     }
@@ -19,7 +19,7 @@ sistemas = [
     {
         "nome": "Habitação",
             "prioridade": 1
-              "consumo":?,  #definer depois com o time
+              "consumo"30,  
                 "ativo": True,
                   "tipo": "essencial"
     }
@@ -27,7 +27,7 @@ sistemas = [
     {
         "nome": "Comunicações",
             "prioridade": 2
-              "consumo":?,  #definer depois com o time
+              "consumo":15,  
                 "ativo": True,
                   "tipo": "essencial"
     }
@@ -36,7 +36,8 @@ sistemas = [
 # ---------------- ENERGIA (placeholder) ----------------
 
 fontes_energia = [
-    # definir depois com o time
+    "solar": 80,  
+    "bateria": 150,
 ]
 
 # ---------------- REGRESSÃO LINEAR (TESTE) ----------------
