@@ -13,7 +13,7 @@ def calcular_energia_total():
 #criar uma função para calcular o consumo total de energia dos sistemas ativos ]]
 def calcular_consumo_total(): 
         total = 0
-        for sistema in sistema:
+        for sistema in sistemas:
             if sistema["ativo"]:
                  total += sistema["consumo"]
         
