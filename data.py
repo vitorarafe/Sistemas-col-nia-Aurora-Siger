@@ -1,44 +1,45 @@
 # ---------------- SISTEMAS DA NAVE ----------------
 
-sistemas = [
+sistemas = [ 
     {
         "nome": "Geração de Oxigênio",
-          "prioridade": 1
+          "prioridade": 1,
              "consumo":40,  
                 "ativo": True,
-                    "tipo": "essencial
+                    "tipo": "essencial",
     },
     {
         "nome": "laoratório",
-          "prioridade":3
+          "prioridade":3,
             "consumo":25,  
               "ativo": True,
-                 "tipo": "pesquisa
-    }
+                 "tipo": "pesquisa",
+    },
 
     {
         "nome": "Habitação",
-            "prioridade": 1
-              "consumo"30,  
+            "prioridade": 1,
+              "consumo": 30,  
                 "ativo": True,
-                  "tipo": "essencial"
-    }
+                  "tipo": "essencial",
+    },
 
     {
         "nome": "Comunicações",
-            "prioridade": 2
-              "consumo":15,  
+            "prioridade": 2,
+              "consumo": 15,  
                 "ativo": True,
-                  "tipo": "essencial"
-    }
+                  "tipo": "essencial",
+    },
 ]
+ 
 
 # ---------------- ENERGIA (placeholder) ----------------
 
-fontes_energia = [
+fontes_energia = {
     "solar": 80,  
     "bateria": 150,
-]
+},
 
 # ---------------- REGRESSÃO LINEAR (TESTE) ----------------
 
