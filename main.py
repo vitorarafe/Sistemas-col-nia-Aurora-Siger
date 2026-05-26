@@ -9,7 +9,7 @@ from structure import buscar_maior_consumo, ordem_prioridade
 from forecast import prever_energia_futura
 
 
-#criar excecução com base nas funções que serão criadas nos outro arquivos :) => amanhã organizo melhor 
+
 
 analisar_energia()
 

@@ -43,5 +43,5 @@ fontes_energia = {
 
 # ---------------- REGRESSÃO LINEAR (TESTE) ----------------
 
-incidencia_solar = [5, 10, 15, 20, 25]   #mudei para ficar mais legível, depois me fala oq acha 
-energia_solar  = [12, 20, 33, 42, 55]  #energia
+incidencia_solar = [5, 10, 15, 20, 25]   
+energia_solar  = [12, 20, 33, 42, 55]  

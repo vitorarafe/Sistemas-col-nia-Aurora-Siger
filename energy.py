@@ -1,6 +1,6 @@
 ###analisa a energia na nave 
 
-from data import sistemas, fontes_energia       # vou explicar para vocês, mas é a mesma coisa que eu falei do export default do react 
+from data import sistemas, fontes_energia      
 
 #energia total disponível com base nas fontes de energia
 def calcular_energia_total(): 
@@ -10,7 +10,7 @@ def calcular_energia_total():
         return total
 
 
-#criar uma função para calcular o consumo total de energia dos sistemas ativos ]]
+#função para calcular o consumo total de energia dos sistemas ativos 
 def calcular_consumo_total(): 
         total = 0
         for sistema in sistemas:

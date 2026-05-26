@@ -33,10 +33,10 @@ def prever_energia_futura():
     # Previsoes
     y_pred = modelo.predict(X)
     r2 = r2_score(y, y_pred)
-    print("R²:", r2) #(coeficiente de determinação) qunato mais proximo de 1 melhor, se for negativo o modelo é pior que a media
+    print("R²:", r2) #(coeficiente de determinação) quanto mais proximo de 1 melhor, se for negativo o modelo é pior que a media
 
     # Simulação de previsão futura
-    solar_futuro = np.array([[12]])  # KKKKKKKKKKKKKKKKKKK VAI CORINTHIANS 
+    solar_futuro = np.array([[12]])  
 
     previsao = modelo.predict(solar_futuro)
 
