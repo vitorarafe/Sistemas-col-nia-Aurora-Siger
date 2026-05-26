@@ -10,11 +10,6 @@ for sistema in sistemas:
     fila_sistemas.append(sistema)
 
 
-#pilha
-
-pilha_alertas = []
-#vamos ver se implementamos isso depois, mas é a mesma ideia do que fizemos no projeto passado 
-
 #função de busca  
 def buscar_maior_consumo():
      

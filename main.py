@@ -18,7 +18,7 @@ tomar_decisoes()
 
 
 maior = buscar_maior_consumo()
-print("\nSistema com maior consumo: {maior['nome']}")
+print(f"\nSistema com maior consumo: {maior['nome']}")
 
 ordenados = ordem_prioridade()
 

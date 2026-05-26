@@ -30,7 +30,6 @@ def prever_energia_futura():
     # Parametros da reta
     print("Intercepto (β₀):", modelo.intercept_)
     print("Inclinação (β₁):", modelo.coef_[0])
-
     # Previsoes
     y_pred = modelo.predict(X)
     r2 = r2_score(y, y_pred)
@@ -41,7 +40,7 @@ def prever_energia_futura():
 
     previsao = modelo.predict(solar_futuro)
 
-    print(f"Previsão futura: {previsao[0]:.2f}")
+    print(f"Previsão futura: {previsao[0]}")
 
     #Grafico
     plt.scatter(X, y, color="blue", label="Dados observados")

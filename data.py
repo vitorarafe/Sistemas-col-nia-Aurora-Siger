@@ -9,7 +9,7 @@ sistemas = [
                     "tipo": "essencial",
     },
     {
-        "nome": "laoratório",
+        "nome": "laboratório",
           "prioridade":3,
             "consumo":25,  
               "ativo": True,
@@ -39,7 +39,7 @@ sistemas = [
 fontes_energia = {
     "solar": 80,  
     "bateria": 150,
-},
+}
 
 # ---------------- REGRESSÃO LINEAR (TESTE) ----------------
 
