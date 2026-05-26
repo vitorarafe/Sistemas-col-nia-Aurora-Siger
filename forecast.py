@@ -1,4 +1,4 @@
-###regressão linear (oq vc tinha falado dan)
+###regressão linear 
 from data import incidencia_solar , energia_solar
 import numpy as np
 import pandas as pd  
